@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 const SearchStudent = () => {
     const [data,changeData]=useState(
         {
-            "name":""
+            "firstname":""
         }
     )
     const inputHandler=(event)=>{
